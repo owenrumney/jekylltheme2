@@ -18,3 +18,19 @@
   padding-bottom: 20px;
   padding-top: 20px;
 }
+
+.post-title ul {
+  margin: 0;
+  padding: 0;
+}
+
+.post-title ul {
+  list-style-type: none;
+}
+.post-title ul > li {
+  text-indent: -5px;
+}
+.post-title ul > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
