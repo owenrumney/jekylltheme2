@@ -1,5 +1,11 @@
 <nav class="float-right">
   {% for item in site.data.nav %}
-  <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
+  <a href="{{ item.link }}" target="_blank"
+    ><img
+      src="/assets/images/{{ item.image }}.svg"
+      style="color: white; display: inline-block"
+      height="{{item.size}}px"
+      alt="{{ item.name }}"
+  /></a>
   {% endfor %}
 </nav>
